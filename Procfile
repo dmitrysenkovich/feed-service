@@ -1,0 +1,1 @@
+web: java -Dspring.profiles.active=heroku -Dserver.port=$PORT -jar ./feed-service-app/target/feed-service-app-0.0.1-SNAPSHOT.jar
